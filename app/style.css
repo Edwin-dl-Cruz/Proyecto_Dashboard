@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 30px;
+    background-color: black
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Shadows+Into+Light & display=swap');
+
+.img{
+    width: 40%;
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-nadvar{
+    left: 50%;
+    font-size: 2rem;
+    position: relative;
+    transform: translateX(-50%);  
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.section{
+    width: 70%;
+    margin-top: 30px;
+}
+
+.tab{
+    margin-top: 40px;
+}
+
+.chartBox{
+    width: 80%;
+    height: 400px;
+    margin: 0px auto;
+}
+
+.chart{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 800px){
+    .img{
+        width: 80%;
+    }
+
+    .section{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .img{
+        width: 100%;
+    }
+
+    .section{
+        width: 100%;
+        text-align: center;
+    }
+
+    body{
+        margin: 0;
+    }
+}
